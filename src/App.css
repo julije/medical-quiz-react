@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4b27d8, #ef80a3);
+  font-family: Arial, sans-serif;
+}
+
+.kviz-kartica {
+  background: rgb(78, 24, 194);
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 700px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.pitanje {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.odgovori {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.odgovor-gumb {
+  padding: 12px 20px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.sljedece-gumb {
+  margin-top: 20px;
+  background: #bd7aff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
